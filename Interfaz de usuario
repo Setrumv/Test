@@ -232,6 +232,26 @@ tab.newButton("Doors", "game", function()
 game:GetService("TeleportService"):Teleport(6516141723) 
 end)
 
-tab.newButton("Button", "Prints Hello!", function()
+tab.newButton("Survive the killer", "game", function()
+game:GetService("TeleportService"):Teleport(4580204640) 
+end)
 
+tab.newButton("basetemplate", "game", function()
+game:GetService("TeleportService"):Teleport(4483381587)
+end)
+
+tab.newButton("Break In 2", "game", function()
+game:GetService("TeleportService"):Teleport(13864661000) 
+end)
+
+tab.newButton("Funky Friday", "game", function()
+game:GetService("TeleportService"):Teleport(6447798030) 
+end)
+
+tab.newButton("Murder Mystery 2", "game", function()
+game:GetService("TeleportService"):Teleport(142823291) 
+end)
+
+tab.newButton("Prison Life", "", function()
+game:GetService("TeleportService"):Teleport(155615604)
 end)
