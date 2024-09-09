@@ -173,6 +173,10 @@ tab.newButton("flappy bird", "wiii", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/rux7UL8L"))();
 end)
 
+tab.newButton("save position", "click", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/Tp%20Place%20GUI'),true))()
+end)
+
 local tab = DrRayLibrary.newTab("games ui", "1000061848")
 
 tab.newButton("what is a better this", "buy all", function()
