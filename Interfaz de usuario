@@ -9,10 +9,10 @@ tab.newButton("FLY", "click", function()
 loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
 end)
 
-tab.newButton("Teleport", "ui", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Teleport%20Gui.lua'))()
+tab.newButton("Teleport", "míni UI", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Teleport%20Gui.lua'))()
 end)
 
-tab.newButton("aimbot", "30 fov", function()
+tab.newButton("aimbot", "UI", function()
  local fov = 30
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
@@ -79,23 +79,23 @@ RunService.RenderStepped:Connect(function()
 end)
 end)
 
-tab.newButton("Op esp", "ESP", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Neutron.lua/main/MainNeutron.lua"))() 
+tab.newButton("Op esp", "UI", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Neutron.lua/main/MainNeutron.lua"))() 
 end)
 
-tab.newButton("animaciones avatar", "ui", function()
+tab.newButton("ANIMACIONES R15", "UI", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
 end)
 
-tab.newButton("KeyBoard", "click", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+tab.newButton("KeyBoard", "CLICK", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 end)
 
-tab.newButton("hitbox", "click", function() loadstring(game:HttpGet(('https://pastebin.com/raw/wr4TYJRW'),true))()
+tab.newButton("hitbox", "CLICK", function() loadstring(game:HttpGet(('https://pastebin.com/raw/wr4TYJRW'),true))()
 end)
 
-tab.newButton("shaders", "ui", function() loadstring(game:HttpGet(('https://pastefy.app/xXkUxA0P/raw'),true))()
+tab.newButton("shaders", "UI", function() loadstring(game:HttpGet(('https://pastefy.app/xXkUxA0P/raw'),true))()
 end)
 
-tab.newButton("cabeza hit", "expand", function()
+tab.newButton("cabeza hit", "CLICK", function()
  _G.HeadSize = 10
 _G.Disabled = true
 game:GetService('RunService').RenderStepped:connect(function()
@@ -169,11 +169,11 @@ _G.Settings = {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
 end)
 
-tab.newButton("flappy bird", "wiii", function()
+tab.newButton("flappy bird", "Let's fly", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/rux7UL8L"))();
 end)
 
-tab.newButton("save position", "click", function()
+tab.newButton("save position", "míni UI", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/Tp%20Place%20GUI'),true))()
 end)
 
@@ -182,7 +182,7 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fe-Silly-an
 end)
 
 tab.newButton("invisible", "míni UI", function()
-loadstring(game:HttpGet('https://pastebin.com/raw/AYtzGEPb'))() 
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Invisible%20Gui'))()
 end)
 
 local tab = DrRayLibrary.newTab("games ui", "1000061848")
@@ -195,15 +195,15 @@ tab.newButton("alwi hub", "buy all", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Imalwibest/main/wynerdV2.lua",true))()
 end)
 
-tab.newButton("doors", "ui", function()
+tab.newButton("doors", "UI", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20Blackking%20And%20BobHub"))()
 end)
 
-tab.newButton("Survive the killer ", "ui", function()
+tab.newButton("Survive the killer ", "UI", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ProjectpopCat/YS_TheGamesEvent/main/SurviveTheKiller.lua'))()
 end)
 
-tab.newButton("Slap battles", "ui", function()
+tab.newButton("Slap battles", "UI OP", function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Slap-Battles-Open-source-for-9484", true))()
 end)
 
@@ -211,19 +211,19 @@ tab.newButton("break in 2", "admin panel", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RScriptz/RobloxScripts/main/BreakIn2.lua"))()
 end)
 
-tab.newButton("Funky friday", "ui", function()
+tab.newButton("Funky friday", "UI", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/uuuuuuu/main/Funky%20Friday/BotPlayer.lua"))();
 end)
 
-tab.newButton("murder mistery", "ui", function()
+tab.newButton("murder mistery", "UI", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/s-o-a-b/nexus/main/loadstring"))()
 end)
 
-tab.newButton("Prisión life comands", "commands", function()
+tab.newButton("Prisión life comands", "UI OP", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/elliexmln/PrizzLife/main/pladmin.lua'))()
 end)
 
-tab.newButton("Prisión life animations", "ui", function()
+tab.newButton("Prisión life animations", "míni UI", function()
 loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\103\48\48\108\88\112\108\111\105\116\101\114\47\103\48\48\108\88\112\108\111\105\116\101\114\47\109\97\105\110\47\70\101\37\50\48\98\121\112\97\115\115\34\44\32\116\114\117\101\41\41\40\41\10")()
 end)
 
