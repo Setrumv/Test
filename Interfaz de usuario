@@ -228,3 +228,10 @@ end)
 
 local tab = DrRayLibrary.newTab("game TP", "1000061848")
 
+tab.newButton("Doors", "game", function()
+game:GetService("TeleportService"):Teleport(6516141723) 
+end)
+
+tab.newButton("Button", "Prints Hello!", function()
+
+end)
