@@ -82,6 +82,10 @@ end)
 tab.newButton("Op esp", "ESP", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Neutron.lua/main/MainNeutron.lua"))() 
 end)
 
+tab.newButton("animaciones avatar", "ui", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+end)
+
 tab.newButton("KeyBoard", "click", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 end)
 
@@ -169,8 +173,44 @@ tab.newButton("flappy bird", "wiii", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/rux7UL8L"))();
 end)
 
-local tab = DrRayLibrary.newTab("games ui", "131444492")
+local tab = DrRayLibrary.newTab("games ui", "1000061848")
 
-tab.newButton("test", "buy all", function()
+tab.newButton("what is a better this", "buy all", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/BaconBossScript/Crazy/main/Crazy'),true))()
+end)
+
+tab.newButton("alwi hub", "buy all", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Imalwibest/main/wynerdV2.lua",true))()
+end)
+
+tab.newButton("doors", "ui", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20Blackking%20And%20BobHub"))()
+end)
+
+tab.newButton("Survive the killer ", "ui", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ProjectpopCat/YS_TheGamesEvent/main/SurviveTheKiller.lua'))()
+end)
+
+tab.newButton("Slap battles", "ui", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Slap-Battles-Open-source-for-9484", true))()
+end)
+
+tab.newButton("break in 2", "admin panel", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RScriptz/RobloxScripts/main/BreakIn2.lua"))()
+end)
+
+tab.newButton("Funky friday", "ui", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/uuuuuuu/main/Funky%20Friday/BotPlayer.lua"))();
+end)
+
+tab.newButton("murder mistery", "ui", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/s-o-a-b/nexus/main/loadstring"))()
+end)
+
+tab.newButton("Prisión life comands", "commands", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/elliexmln/PrizzLife/main/pladmin.lua'))()
+end)
+
+tab.newButton("Prisión life animations", "ui", function()
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\103\48\48\108\88\112\108\111\105\116\101\114\47\103\48\48\108\88\112\108\111\105\116\101\114\47\109\97\105\110\47\70\101\37\50\48\98\121\112\97\115\115\34\44\32\116\114\117\101\41\41\40\41\10")()
 end)
