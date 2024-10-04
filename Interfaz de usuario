@@ -1,6 +1,6 @@
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
  
-local window = DrRayLibrary:Load("SETRUMV", "Default")
+local window = DrRayLibrary:Load("SETRUMV HUB", "Default")
 
 local tab = DrRayLibrary.newTab("universal ", "ImageIdHere")
 
@@ -8,7 +8,7 @@ tab.newButton("FLY", "click", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/eR4bgsRp"))()
 end)
 
-tab.newButton("Teleport", "míni UI", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Teleport%20Gui.lua'))()
+tab.newButton("TELEPORT Player", "míni UI", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Teleport%20Gui.lua'))()
 end)
 
 tab.newButton("aimbot", "UI", function()
