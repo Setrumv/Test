@@ -326,5 +326,3 @@ end)
 tab.newButton("Prison Life", "", function()
 game:GetService("TeleportService"):Teleport(155615604)
 end)
-
-T
