@@ -94,7 +94,7 @@ end)
 tab.newButton("shaders", "UI", function() loadstring(game:HttpGet(('https://pastefy.app/xXkUxA0P/raw'),true))()
 end)
 
-tab.newButton("cabeza hit", "CLICK", function()
+tab.newButton("HeadSize", "CLICK", function()
  _G.HeadSize = 10
 _G.Disabled = true
 game:GetService('RunService').RenderStepped:connect(function()
