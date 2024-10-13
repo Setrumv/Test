@@ -2,7 +2,7 @@ local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/
  
 local window = DrRayLibrary:Load("STV'S HUB", "Default")
 
-local tab = DrRayLibrary.newTab("universal scripts", "ImageIdHere")
+local tab = DrRayLibrary.newTab("universal", "ImageIdHere")
 
 tab.newButton("fly v3", "míni UI", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/eR4bgsRp"))()
@@ -289,6 +289,10 @@ tab.newButton("jailbreack AutoFarm", "UI OP", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20Blackking%20And%20BobHub"))()
 end)
 
+tab.newButton("Blade ball", "UI", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/devdoroz/bleachhack/main/newloader.lua"))()
+end)
+
 local tab = DrRayLibrary.newTab("game TP", "1000061848")
 
 tab.newButton("Doors", "game", function()
@@ -323,7 +327,7 @@ tab.newButton("Blade ball", "game", function()
 game:GetService("TeleportService"):Teleport(13772394625)
 end)
 
-local tab = DrRayLibrary.newTab("modify games", "1000061848")
+local tab = DrRayLibrary.newTab("modify", "1000061848")
 
 tab.newButton("what is a better this", "buy all", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/BaconBossScript/Crazy/main/Crazy'),true))()
