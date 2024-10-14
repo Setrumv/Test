@@ -289,10 +289,6 @@ tab.newButton("jailbreack AutoFarm", "UI OP", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20Blackking%20And%20BobHub"))()
 end)
 
-tab.newButton("Blade ball", "UI", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/devdoroz/bleachhack/main/newloader.lua"))()
-end)
-
 local tab = DrRayLibrary.newTab("game TP", "1000061848")
 
 tab.newButton("Doors", "game", function()
@@ -321,10 +317,6 @@ end)
 
 tab.newButton("jailbreack", "game", function()
 game:GetService("TeleportService"):Teleport(606849621)
-end)
-
-tab.newButton("Blade ball", "game", function()
-game:GetService("TeleportService"):Teleport(13772394625)
 end)
 
 local tab = DrRayLibrary.newTab("modify", "1000061848")
