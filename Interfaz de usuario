@@ -255,6 +255,10 @@ RunService.RenderStepped:Connect(function()
 end)
 end)
 
+tab.newButton("other", "UI", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
+
 local tab = DrRayLibrary.newTab("games ui", "1000061848")
 
 tab.newButton("doors", "UI", function()
