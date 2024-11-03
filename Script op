@@ -293,6 +293,14 @@ tab.newButton("jailbreack AutoFarm", "UI OP", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20Blackking%20And%20BobHub"))()
 end)
 
+tab.newButton("3008", "UI", function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/Yumiara/Python/refs/heads/main/SCP3008.py")()
+end)
+
+tab.newButton("Evade", "UI", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproooolucky/Unknown-Hub-X-Universal-Games/main/Games/Evade'))()
+end)
+
 local tab = DrRayLibrary.newTab("game TP", "1000061848")
 
 tab.newButton("Doors", "game", function()
@@ -321,6 +329,14 @@ end)
 
 tab.newButton("jailbreack", "game", function()
 game:GetService("TeleportService"):Teleport(606849621)
+end)
+
+tab.newButton("3008", "game", function()
+game:GetService("TeleportService"):Teleport(2768379856)
+end)
+
+tab.newButton("Evade", "game", function()
+game:GetService("TeleportService"):Teleport(9872472334)
 end)
 
 local tab = DrRayLibrary.newTab("modify", "1000061848")
