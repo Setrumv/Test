@@ -345,8 +345,8 @@ tab.newButton("what is a better this", "buy all", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/BaconBossScript/Crazy/main/Crazy'),true))()
 end)
 
-tab.newButton("alwi hub", "buy all/dont work", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Imalwibest/main/wynerdV2.lua",true))()
+tab.newButton("Wyvern or alwi hub", "buy all", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wyvernleaker/WYVERN/main/WYVERN.lua",true))()
 end)
 
 tab.newButton("Remote spy", "Modify", function()
